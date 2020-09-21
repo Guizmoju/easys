@@ -1,0 +1,22 @@
+.icon-easys{
+    margin-top: 20%;
+    position: relative;
+}
+
+.icon2-easys{
+    visibility: hidden;
+    position: absolute;
+}
+
+@media screen and (max-width: 736px) {
+
+    .icon-easys {
+        visibility: hidden;
+    }
+
+    .icon2-easys{
+        visibility: visible;
+        margin-top: -105%;
+        margin-left: -50%;
+    }
+}
